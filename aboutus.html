@@ -26,6 +26,7 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
+                <a href="index.html"><img src="img/logo.png" class="img-fluid" /></a>
                 <div class="col">
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
@@ -35,7 +36,8 @@
     </header>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
@@ -79,6 +81,7 @@
             <div class="col-sm-6">
                 <div class="card">
                     <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
+                    <!--Color: .text-primary/secondary/success/danger/warning/info/light/dark/body/muted/white/black-50/white-50 -->
                     <div class="card-body">
                         <dl class="row">
                             <dt class="col-6">Founded</dt>
@@ -144,7 +147,7 @@
 
                         <thead>
                             <tr class="bg-primary text-light">
-                                <th></th>
+                                <th>###</th>
                                 <th>2016</th>
                                 <th>2017</th>
                                 <th>2018</th>
@@ -173,7 +176,7 @@
                                 <td>423,000</td>
                                 <td>~3,000,000,000</td>
                             </tr>
-                            
+
                         </tbody>
 
                     </table>
@@ -216,10 +219,14 @@
                             class="fa fa-youtube"></i>
                     </a>
                 </div>
+
                 <div class="col-sm-4 text-center">
-                    <i class="fa fa-phone fa-lg text-primary"></i> 1-206-555-1234<br />
-                    <i class="fa fa-envelope fa-lg text-primary"></i> campsites@nucamp.co
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone fa-lg text-primary"></i>
+                        1-206-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
+                            class="fa fa-envelope-o fa-lg text-primary"></i> campsites@nucamp.co</a>
                 </div>
+
             </div>
         </div>
     </footer>
