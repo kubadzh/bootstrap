@@ -38,7 +38,22 @@ header h2 {
 }
 
 
-.card-header {
-    
-text-decoration-color: white;
+/* CSS for Option#1: The Nav Component and Tabs
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+*/
+
+
+/* To add a border around the carousel and add a half-transparent background to the captions
+ so they can be more easily read, add this code to styles.css: Using rgba allows us to change transperency 0.5 -50% */
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel {
+    border: solid #5637DD;
 }
