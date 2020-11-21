@@ -55,8 +55,7 @@
 
     <!--Reserve a campsite Modal -->
 
-    <div class="modal fade" id="reserveModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="reserveModal" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
 
@@ -109,20 +108,23 @@
                             <div class="form-group row">
                                 <label class="col-sm-6 col-form-label" for="date">Campsite Type</label>
                                 <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-success">
-                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off"> Tent
+
+                                    <label class="btn btn-success active">
+                                        <input type="radio" name="siteType" id="siteTent" autocomplete="off" checked> Tent
                                     </label>
+
                                     <label class="btn btn-primary">
                                         <input type="radio" name="siteType" id="siteRV" autocomplete="off"> RV
                                     </label>
+
                                 </div>
                             </div>
 
-                            <!--Search Button-->
+                            <!--Search and Cancel Buttons-->
 
                             <div class="form-group row">
                                 <div>
-                                    <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                                 </div>
 
                                 <div>
