@@ -1,3 +1,19 @@
 {
     "git.ignoreLimitWarning": true
 }
+
+{
+    "media.player": {
+        "players": [
+            {
+                "name": "My Spotify player",
+                "type": "spotify",
+            },
+
+            {
+                "name": "My VLC player",
+                "type": "vlc",
+            }
+        ]
+    }
+}
